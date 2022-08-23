@@ -1,6 +1,6 @@
 # phylip3-ish
 
-This repository contains a snapshot of the [PHYLIP-3]() source,
+This repository contains a snapshot of the [PHYLIP-3](https://evolution.genetics.washington.edu/phylip/) source,
 with some changes I needed.
 
 ```
