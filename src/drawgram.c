@@ -101,6 +101,7 @@ void   drawgram(char* intreename, char* fontfilename, char* plotfilename, char* 
                 int scalebranchlength, double branchscale, double breadthdepthratio,
                 double stemltreedratio, double chhttipspratio, double xmarginratio, 
                 double ymarginratio, char* ancnodes, int  dofinalplot, char* finalplotkind);
+void   makebox(char *, double *, double *, double *, long);
 /* function prototypes */
 #endif
 

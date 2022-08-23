@@ -149,6 +149,7 @@ void drawtree(char* intreename, char* plotfilename, char* plotfileopt, char* fon
               int regularizeangles, int avoidlabeloverlap, int branchrescale,
               double branchscaler, double relcharhgt, double xmarginratio, 
               double ymarginratio, int dofinalplot, char* finalplotkind);
+void   makebox(char *, double *, double *, double *, long);
 /* function prototypes */
 #endif
 
