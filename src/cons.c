@@ -254,7 +254,7 @@ void initconsnode(node **p, node **grbg, node *q, long len, long nodei,
     if ( c != '\n' && c!= '\r')
       printf("WARNING: Tree weight set to 1.0\n");
     if ( c == '\r' )
-      if ( (c == gettc(intree)) != '\n')
+      if ( (c = gettc(intree)) != '\n')
         ungetc(c, intree);
     break;
   case hsnolength:
